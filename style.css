@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+
+}
+
+.container {
+    margin: 180px auto 100px;
+    padding: 22px;
+    border-radius: 12px;
+    height: 550px;
+    width: 310px;
+    background-color:hsl(216, 50%, 16%);
+}
+
+h2 {
+    color: aliceblue;
+
+
+}
+h2:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+span {
+    color: aliceblue;
+}
+span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%) ;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.text {
+    padding-top: 20px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .eth {
+        display: flex;
+        justify-content: space-between;
+    
+        .font-eth {
+            color: hsl(178, 100%, 50%);
+        }
+    }
+
+}
+.footer {
+    border-top: 0.5px solid hsl(215, 51%, 70%);;
+    padding-top: 20px;
+    align-items: end;
+    align-items: center;
+    display: flex;
+
+    img {
+        margin-right: 10px;
+        border-radius: 100%;
+        border: solid white 1px;
+        width: 10%;
+    }
+}
+.icon {
+    display: flex;
+
+    img {
+        width: auto;
+        margin-right: 5px;
+    }
+}
+.mainImg {
+    background-size: cover;
+    width: 100%;
+    img {
+        border-radius: 10px;
+        width: 100%;
+    }
+}
+@import url(https://fonts.google.com/specimen/Outfit);
+* {
+    font-family: "Outfit", sans-serif;
+}
+.attribution {
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+}
